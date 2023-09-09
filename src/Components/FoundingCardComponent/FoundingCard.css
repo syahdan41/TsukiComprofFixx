@@ -1,0 +1,169 @@
+@font-face {
+  font-family: "Syne";
+  src: url("../../Assets/Font/static/Syne-Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Visby CF";
+  src: url("../../Assets/Font/VisbyCF-Regular.otf") format("truetype");
+}
+@font-face {
+  font-family: "Visby CF Light";
+  src: url("../../Assets/Font/VisbyCF-Light.otf") format("truetype");
+}
+
+.FoundingCardLayout {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  margin-top: 80px;
+  margin-bottom: 350px;
+}
+.firstTittle {
+  font-family: "Visby CF Bold";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 37px;
+  background: linear-gradient(90.58deg, #00b0cd 0%, #01dbad 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-align: center;
+  margin-bottom: -35px;
+}
+.card {
+  background-color: #ffff;
+  border-radius: 0px 0px 30px 30px;
+  width: 200px;
+  height: 142px;
+  filter: drop-shadow(0px 20px 20px rgba(0, 193, 190, 0.3));
+}
+
+.nameStyle {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  padding-top: 20px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  font-style: normal;
+  background: linear-gradient(92.15deg, #009bd8 0.74%, #01dbad 112.37%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-family: "Syne";
+  width: 200px;
+  margin-right: 20px;
+}
+
+.roleStyle {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin-top: 17px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 28px;
+  font-style: normal;
+  opacity: 50%;
+  font-family: "Visby CF";
+  color: #000;
+}
+.profileCard {
+  width: 200px;
+  height: 170px;
+  margin-bottom: -20px;
+  background: linear-gradient(132.29deg, #009bd8 0%, #01dbad 100%);
+  border-top-right-radius: 30px;
+  border-top-left-radius: 30px;
+  filter: drop-shadow(0px 10px 20px rgba(0, 193, 190, 0.3));
+}
+.profileImage {
+  width: 310px;
+  height: 225px;
+  border-top-right-radius: 30px;
+  border-top-left-radius: 30px;
+  bottom: 200px;
+  top: -75px;
+  right: 2px;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+}
+.socmedContainer {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.Icon {
+  width: 24px;
+  height: 24px;
+}
+.headingFounding {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.foundingTittle {
+  font-style: normal;
+  background: linear-gradient(92.15deg, #009bd8 0.74%, #01dbad 112.37%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-family: "Syne";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 72px;
+  margin-bottom: 12px;
+}
+.foundingDesc {
+  color: #ffff;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  font-family: "Visby CF Light";
+  font-style: normal;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 28px;
+  margin-left: 60px;
+  margin-right: 60px;
+}
+
+.two-color-text2-syhdn {
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px;
+}
+.firstTxtSyhdn {
+  font-family: "Syne";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 72px;
+  text-align: center;
+  color: #ffffff;
+  margin-right: 12px;
+}
+.secTxt {
+  font-family: "Syne";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 72px;
+  text-align: center;
+  background: linear-gradient(92.15deg, #009bd8 0.74%, #01dbad 112.37%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}

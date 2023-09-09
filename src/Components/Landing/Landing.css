@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@700&display=swap');
+
+.gradient-text{
+    font-family: 'Syne';
+    background-image: linear-gradient(to right, #009BD8, #01DBAD);
+    background-clip: text;
+    color: transparent;
+    font-weight: 700;
+}
+.gradient-text-about{
+    font-family: 'Syne';
+    background-image: linear-gradient(to right, #009BD8 0%, #01DBAD 70%);
+    background-clip: text;
+    color: transparent;
+    font-weight: 700;
+}
+.gradient-card{
+    font-family: 'Syne';
+    background: linear-gradient(96.83deg, #00B0CD 0%, #01DBAD 100%);
+}
+.gradient-circle{
+    background: linear-gradient(180deg, #00218D 0%, #015E4A 100%);
+}

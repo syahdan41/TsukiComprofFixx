@@ -1,0 +1,125 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@font-face {
+  font-family: Visby CF;
+  src: url(./Assets/Font/VisbyCF-Light.otf);
+}
+.visby{
+  font-family: Visby CF;
+}
+
+@font-face {
+  font-family: Visby CF Regular;
+  src: url(./Assets/Font/VisbyCF-Regular.otf);
+}
+.visbyregular{
+  font-family: Visby CF Regular;
+}
+
+@font-face {
+  font-family: Visby CF Bold;
+  src: url(./Assets/Font/VisbyCF-Bold.otf);
+}
+.visbybold{
+  font-family: Visby CF Bold;
+  background-image: linear-gradient(96.83deg, #00B0CD 0%, #01DBAD 80%);
+  background-clip: text;
+  color: transparent;
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: Visby CF Medium;
+  src: url(./Assets/Font/VisbyCF-Medium.otf);
+}
+
+.visbymedium{
+  font-family: Visby CF Medium;
+  background-image: linear-gradient(96.83deg, #00B0CD 0%, #01DBAD 80%);
+  background-clip: text;
+  color: transparent;
+  font-weight: 500;
+  border: 1.5px solid;
+  /* font-family: Visby CF Medium;
+  background: linear-gradient(black, black) padding-box,
+              linear-gradient(to right, #00B0CD , #01DBAD ) border-box;
+              border-radius: 0.5rem;
+  border: 1.5px solid transparent; */
+  
+}
+.btn-gradient-2 {
+  background: linear-gradient(black, black) padding-box,
+              linear-gradient(to right, #00B0CD , #01DBAD ) border-box;
+  border-radius: 15px;
+  border: 1.5px solid transparent;
+}
+.btn-gradient-2 {
+  position: relative;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1em;
+  color: linear-gradient(to right, #00B0CD , #01DBAD )text;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-top: 0.7rem;
+  padding-bottom: 0.7rem;
+}
+.btnAbout{
+  /* font-family: Visby CF Medium;
+  background-image: linear-gradient(96.83deg, #00B0CD 0%, #01DBAD 80%);
+  background-clip: text;
+  color: transparent;
+  font-weight: 500; */
+  
+}
+.btnAbout:hover{
+  background: linear-gradient(to right, #00B0CD , #01DBAD ) border-box;
+  border-radius: 12px;
+  border: 2px solid transparent;
+  font-family: Visby CF Medium;
+  /* background-image: linear-gradient(96.83deg, #00B0CD 0%, #01DBAD 80%);
+  background-clip: text;
+  color: transparent;
+  font-weight: 500; */
+  
+}

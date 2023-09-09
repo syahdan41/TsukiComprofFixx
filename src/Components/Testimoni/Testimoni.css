@@ -1,0 +1,198 @@
+@font-face {
+  font-family: "Syne-Bold";
+  src: url("../../Assets/Font/static/Syne-Bold.ttf") format("truetype");
+}
+
+.main-container-testi {
+  background-color: black;
+  margin-top: 650px;
+}
+.circle-right {
+  position: absolute;
+  justify-content: flex-end;
+  align-items: flex-end;
+  display: flex;
+}
+
+.circle-2 {
+  width: 285px;
+  height: 407px;
+  border-radius: 50%;
+  background-color: aqua;
+  position: absolute;
+  top: 80px;
+  left: 1000px;
+  filter: blur(320px);
+}
+
+.content-layout {
+  display: flex;
+  flex-direction: row;
+}
+
+.card-testi {
+  display: flex;
+  flex-direction: row;
+  margin-left: -80px;
+  gap: 40px;
+}
+
+.card-testi-txt {
+  color: #fff;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 180%;
+  text-align: left;
+  width: 247px;
+  margin-left: 30px;
+  margin-top: 52px;
+}
+.testi-name {
+  font-family: "Syne-Bold";
+  color: #fff;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 180%;
+  margin-left: 30px;
+  margin-top: 40px;
+}
+
+.testi-card-left {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  margin-top: 78px;
+}
+
+.testi-card-left-1 {
+  width: 346px;
+  height: 330px;
+  flex-shrink: 0;
+  background: linear-gradient(135deg, #009bd8 0%, #01dbad 100%);
+  box-shadow: 0px 4px 120px 0px rgba(89, 113, 105, 0.1);
+  border-radius: 30px;
+  justify-content: center;
+  align-items: center;
+}
+.testi-card-left-2 {
+  width: 346px;
+  height: 330px;
+  flex-shrink: 0;
+  background: linear-gradient(135deg, #009bd8 0%, #01dbad 100%);
+  box-shadow: 0px 4px 120px 0px rgba(89, 113, 105, 0.1);
+  border-radius: 30px;
+  justify-content: center;
+  align-items: center;
+}
+.testi-card-right {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.testi-card-right-1 {
+  width: 346px;
+  height: 330px;
+  flex-shrink: 0;
+  background: linear-gradient(135deg, #009bd8 0%, #01dbad 100%);
+  box-shadow: 0px 4px 120px 0px rgba(89, 113, 105, 0.1);
+  border-radius: 30px;
+  justify-content: center;
+  align-items: center;
+}
+.testi-card-right-2 {
+  width: 346px;
+  height: 330px;
+  flex-shrink: 0;
+  background: linear-gradient(135deg, #009bd8 0%, #01dbad 100%);
+  box-shadow: 0px 4px 120px 0px rgba(89, 113, 105, 0.1);
+  border-radius: 30px;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-testi {
+  display: flex;
+  flex-direction: column;
+  margin-left: 121px;
+  margin-top: 80px;
+}
+
+.testimonials-tittle {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  background: linear-gradient(135deg, #00b0cd 0%, #01dbad 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.img-container-testi {
+  display: flex;
+  flex-direction: row;
+  margin-top: 60px;
+  margin-left: 10px;
+}
+.img-rounded {
+  width: 60px;
+  height: 60px;
+  flex-shrink: 0;
+  border-radius: 60px;
+  margin-left: -10px;
+}
+.tittle-container {
+  margin-top: 60px;
+}
+.white-text {
+  color: #fff;
+  font-family: "Syne-Bold";
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.tittle-row-layout {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+}
+.gradient-text {
+  font-family: "Syne-Bold";
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  background: linear-gradient(124deg, #00b0cd 0%, #01dbad 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.testimonials-desc {
+  color: #fff;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: lighter;
+  line-height: normal;
+  letter-spacing: 0.36px;
+  margin-top: 70px;
+  width: 520px;
+}
+.testimonials-desc-end {
+  margin-top: 60px;
+  font-family: "Syne-Bold";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.36px;
+
+  background: linear-gradient(135deg, #00b0cd 0%, #01dbad 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
